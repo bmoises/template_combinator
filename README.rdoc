@@ -1,6 +1,7 @@
 = chamel
 
-Description goes here.
+The point of this is to combine hamel partials into one big template
+* for example, if show.html.haml includes 5 partials this plugin will combine into one file, show.chamel
 
 == Contributing to chamel
  
