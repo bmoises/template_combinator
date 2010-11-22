@@ -5,7 +5,7 @@ require 'pp'
 raise "Please specify input file" unless ARGV[0] && File.exists?(ARGV[0])
 parent_file = ARGV.first
 
-main_node = TemplateNode.new(parent_file, :parent, ".html.haml")
+main_node = HamlCombinator.new(parent_file, :parent)
 
 main_node.identify_partials
 
