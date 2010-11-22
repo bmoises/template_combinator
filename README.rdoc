@@ -3,6 +3,9 @@
 The point of this is to combine hamel partials into one big template
 * for example, if show.html.haml includes 5 partials this plugin will combine into one file, show.chamel
 
+=== TODO
+* Take into account options passed to render
+
 == Contributing to chamel
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
